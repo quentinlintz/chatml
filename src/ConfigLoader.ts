@@ -15,7 +15,7 @@ export class ConfigLoader {
    * @returns A configuration object that includes an array of messages, where each message has a role and a content field.
    */
   static load(): Config {
-    const configFilePath = path.join(__dirname, "..", ".chatml.yaml");
+    const configFilePath = path.join(process.cwd(), ".chatml.yaml");
     if (!fs.existsSync(configFilePath)) {
       throw new Error(`Configuration file ${configFilePath} not found`);
     }
