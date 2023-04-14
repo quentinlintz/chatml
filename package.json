@@ -25,13 +25,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quentinlintz/gpt-warmup.git"
+    "url": "git+https://github.com/quentinlintz/chatml.git"
   },
   "keywords": [
     "OpenAI",
     "ChatGPT"
   ],
-  "author": "Quentin Lintz",
+  "author": "Quentin Lintz <quentinlintz@outlook.com>",
   "license": "MIT",
   "dependencies": {
     "yaml": "^2.2.1"
