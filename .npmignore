@@ -10,6 +10,7 @@ examples
 
 # Config
 .changeset
+.vscode
 .github
 .husky
 .nvmrc
