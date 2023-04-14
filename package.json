@@ -1,0 +1,55 @@
+{
+  "name": "@quentinlintz/chatml",
+  "version": "0.0.0",
+  "description": "Prime GPT with a context in a single API request.",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist.index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "prettier": "prettier --write .",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build",
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm run lint"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quentinlintz/gpt-warmup.git"
+  },
+  "keywords": [
+    "OpenAI",
+    "ChatGPT"
+  ],
+  "author": "Quentin Lintz",
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.2.1"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "@vitest/coverage-c8": "^0.30.1",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
+    "prettier": "^2.8.7",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  }
+}

@@ -1,0 +1,18 @@
+# Code
+test
+src
+examples
+
+# Linters
+.eslintignore
+.eslintrc
+.prettierrc
+
+# Config
+.changeset
+.github
+.husky
+.nvmrc
+pnpm-lock.yaml
+tsconfig.json
+vite.config.ts
