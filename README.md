@@ -39,10 +39,10 @@ Import the `prepend` function and assign it to the `messages` parameter in your 
 ```javascript
 import { prepend } from "@quentinlintz/chatml";
 
-const payload = {
+const completion = await openai.createChatCompletion({
   model: "gpt-3.5-turbo",
-  messages: prepend("What score did the Los Angeles Dodgers win by?"),
-};
+  messages: prepend("What kind of drinks do you have?"),
+});
 ```
 
 ## Contributing
