@@ -1,5 +1,11 @@
 # @quentinlintz/chatml
 
+## 0.0.2
+
+### Patch Changes
+
+- ee45d09: Fix where the config file is loaded from
+
 ## 0.0.1
 
 ### Patch Changes

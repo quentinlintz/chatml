@@ -1,6 +1,6 @@
 {
   "name": "@quentinlintz/chatml",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prime GPT with a context in a single API request.",
   "private": false,
   "main": "dist/index.js",
