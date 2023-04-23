@@ -1,5 +1,7 @@
 # ChatML
 
+![Build Status](https://github.com/quentinlintz/chatml/workflows/CI/badge.svg)
+
 ChatML (Chat Markup Language) is a package that prevents prompt injection attacks by prepending your prompts with a conversation.
 
 ## Installation
