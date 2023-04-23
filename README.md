@@ -1,6 +1,8 @@
 # ChatML
 
 ![Build Status](https://github.com/quentinlintz/chatml/workflows/CI/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/07281a5cc01493e33ca0/maintainability)](https://codeclimate.com/github/quentinlintz/chatml/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/07281a5cc01493e33ca0/test_coverage)](https://codeclimate.com/github/quentinlintz/chatml/test_coverage)
 
 ChatML (Chat Markup Language) is a package that prevents prompt injection attacks by prepending your prompts with a conversation.
 
